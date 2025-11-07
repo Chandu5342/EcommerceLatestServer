@@ -136,83 +136,78 @@ The server will run on:
 ---
 ```
 PostMan Testing
-
- 1️⃣ Register a User
-
-Endpoint:
-POST http://localhost:5000/api/auth/register
+   
+   1️⃣ Register a User
+   
+   Endpoint:
+   POST http://localhost:5000/api/auth/register
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fc8baf59-c02b-43bc-9606-4c5910db5bd2" />
 
-2️⃣ Login User
-
-Endpoint:
-POST http://localhost:5000/api/auth/login
+  2️⃣ Login User
+  
+  Endpoint:
+  POST http://localhost:5000/api/auth/login
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/bbdf8b18-9ee7-4258-bf0c-cfaf31752991" />
 
-3️⃣ Get All Products
-
-Endpoint:
-GET http://localhost:5000/api/products
+  3️⃣ Get All Products
+  
+  Endpoint:
+  GET http://localhost:5000/api/products
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7ab20ec6-bc6c-4a14-90e1-137ca95b59ac" />
 
-4️⃣ Add to Cart
+  4️⃣ Add to Cart
+  
+  Endpoint:
+  POST http://localhost:5000/api/cart
 
-Endpoint:
-POST http://localhost:5000/api/cart
-
-5. Create a New Product
-
-Endpoint:
-POST http://localhost:5000/api/products
+   5. Create a New Product
+   
+   Endpoint:
+   POST http://localhost:5000/api/products
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8274b2b7-f2b7-4efb-90d7-aca1e4d5649e" />
 
-6.Update a Product
-
-Endpoint:
-PUT http://localhost:5000/api/products/<product_id>
+  6.Update a Product
+  
+  Endpoint:
+  PUT http://localhost:5000/api/products/<product_id>
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/79486173-47df-4f06-8cc0-1f159f5add7b" />
 
-7.Delete a Product
-
-Endpoint:
-DELETE http://localhost:5000/api/products/<product_id>
+  7.Delete a Product
+  
+  Endpoint:
+  DELETE http://localhost:5000/api/products/<product_id>
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cfb3ac3e-7f0c-4101-9700-39aa27015cc0" />
 
-8.Add to Cart
-
-Endpoint:
-POST http://localhost:5000/api/cart
+  8.Add to Cart
+  
+  Endpoint:
+  POST http://localhost:5000/api/cart
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/170d82dc-9d13-4c78-8b37-62f9c0baa77b" />
 
-9.Get All Cart Items
-
-Endpoint:
-GET http://localhost:5000/api/cart
+  9.Get All Cart Items
+  
+  Endpoint:
+  GET http://localhost:5000/api/cart
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/656d7c00-5d51-4201-948b-f6c2d2bb9840" />
 
-10.Remove an Item from Cart
-
-Endpoint:
-DELETE http://localhost:5000/api/cart/690dee3727c72d457e360907
+  10.Remove an Item from Cart
+  
+  Endpoint:
+  DELETE http://localhost:5000/api/cart/690dee3727c72d457e360907
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4ebcc13a-5e4e-4305-a240-998e19d90c05" />
 
-11.Checkout
-
-Endpoint:
-POST http://localhost:5000/api/checkout
-
-12.Checkout
-
-Endpoint:
-POST http://localhost:5000/api/checkout
+  11.Checkout
+  
+  Endpoint:
+  POST http://localhost:5000/api/checkout
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d4eaf2af-359c-4c8f-b702-b6fd29327705" />
 

@@ -163,6 +163,9 @@ PostMan Testing
   Endpoint:
   POST http://localhost:5000/api/cart
 
+  <img width="1366" height="768" alt="Screenshot (1536)" src="https://github.com/user-attachments/assets/c0aa77f0-8897-4c81-ba19-611434aec32c" />
+
+
    5. Create a New Product
    
    Endpoint:

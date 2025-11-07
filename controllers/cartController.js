@@ -37,21 +37,30 @@ export const addToCart = async (req, res, next) => {
 export const removeFromCart = async (req, res, next) => {
   try {
     const userId = req.user._id;
-    const productId = req.params.id;
+    const cartItemId = req.params.id; // this is the item's _id
 
     const cart = await Cart.findOne({ user: userId });
     if (!cart) return res.status(404).json({ message: "Cart not found" });
 
+    const initialLength = cart.items.length;
+
+    // Filter out the cart item by its own _id
     cart.items = cart.items.filter(
-      (item) => item.product.toString() !== productId
+      (item) => item._id.toString() !== cartItemId
     );
 
+    if (cart.items.length === initialLength) {
+      return res.status(404).json({ message: "Item not found in cart" });
+    }
+
     await cart.save();
+
     res.json({ message: "Item removed from cart", cart });
   } catch (error) {
     next(error);
   }
 };
+
 
 
 export const getCart = async (req, res, next) => {

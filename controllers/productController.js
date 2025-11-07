@@ -24,7 +24,8 @@ export const getProductById = async (req, res, next) => {
 
 export const createProduct = async (req, res, next) => {
   try {
-    const { name, description, price, image } = req.body;
+    console.log("ehlo")
+    const { name, description="", price, image } = req.body;
     const product = await Product.create({ name, description, price, image });
     res.status(201).json(product);
   } catch (error) {

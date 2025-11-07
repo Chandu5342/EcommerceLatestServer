@@ -134,7 +134,7 @@ The server will run on:
 👉 `http://localhost:5000`
 
 ---
-```
+
 PostMan Testing
    
    1️⃣ Register a User
@@ -211,7 +211,7 @@ PostMan Testing
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d4eaf2af-359c-4c8f-b702-b6fd29327705" />
 
-```
+
 ## Notes
 
 * All protected routes require **JWT token** in the `Authorization` header:  
